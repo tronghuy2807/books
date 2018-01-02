@@ -1,0 +1,113 @@
+Introduction & overview:
+3 van de: computer issue, interaction style va human interface
+Trong linh vuc tuong tac nguoi may, de dam bao duoc su tuong tac giua ng va may => dam bao tinh giao tiep duoc (communication) => can:
+- Kenh trao doi thong tin: input/output channel
+- Thong tin phai hieu duoc: input/output information
+
+* con ng co truoc, may tinh co sau => khi lam app phai khao sat cac he thong input/output cua cng nhu no von co
+may tinh co sau, nang luc o 1 so phan co han => cung phai xem xet he thong theo cach tuong tac hien tai cua may tinh
+=> can quy xet ve cung 1 van de
+
+- io infor: domain + style
+
+Cng - maytinh giao tiep can: 	kenh giao tiep phu hop
+								kieu thong tin trdoi phai phu hop
+								mien thong tin giao tiep phai phu hop
+
+Dich phuong ngu: dung 2/3 nhung khac mien giao tri
+Tt cua may tinh neu dung kenh, kieu, mien nhung cach hien thi ko phu hop cung ko tot
+
+input channel: = cac giac quan
+output channel: = cac co quan co kha nang phan ung dap ung lai kich thich ben ngoai
+=> vua la input vua la output => may tinh mo phong: man hinh cam ung la io channel
+
+* nguong: kha nang cua cng la khac nhau - nghe/nhin/van dong vv..
+Chi quan tam den mien giao thua giua tin hieu tra ve cua may tinh va tin hieu tra ve cua cng
+
+Issue:
+- Kha nang ghi nho cua cng -> bo nho dai han
+- bo nho ngan han -> ram
+- bo nho dai han long-term mem -> periodic (timestampt)/ semantic (tra ve ca thong tin va context -> tagging)
+
+Interaction Style:
+- Co 5 kenh io cua cng, doi voi cac ung dung bt thi sd 1 vai kenh => xet den tan suat sd va muc do ho tro cua may tinh
+- Input device/ output device
+- Noi den interaction style: cach nhap tt vao, tra ve tt vv.. va phu thuoc vao tung thiet bi nhat dinh
+
+Virtual reality
+- Coi mt la 1 phan cua the gioi thuc => direct manipulation | Thay vi delete -> keo tha vao thung rac, pinch to zoom, slide
+- Cng coi nhu 1 phan cua tg ao, hoa vao tg ao | Choi game mo phong Wii
+=> Hoa nhap cng va mt de tuong tac tu nhien nhat co the
+
+Cng ko bao gio chi su dung 1 ung dung => Neu chi 1 ud tot -> ng dung ko thoa man
+
+
+----------------------------------------- Bai 2 -----------------------------------------------
+Tinh de dung/ tinh de truy cap phai la 1 tieu chi danh gia cua sp
+Chu trinh ptr pmem phai la chu trinh dang co, nhung neu chu trinh hien tai ko tot -> phai nghi ra chu trinh khac
+
+Chu trinh hien gio: quy chuan hoa cac hanh dong ma dev phai lam.
+Lam the nao de ng dung vs cac ben thu 3 xuat hien trong chu trinh 1 cach tuong minh.
+
+Tuy nhien dev cung ko muon bi can thiep vao qua trinh => can cai tien chu trinh 
+
+Norman: 7 stages => nhin nhan tuong tac dua tren quan diem cua ng dung
+Khung tuong tac: io process => nhin tren qdiem cua ng ptr
+
+
+De nam ngoai
+Cho 1 ung dung, tim cac yeu cau ve chuc nang, yeu cau nao dung dc
+ICT: cac muc tieu chinh cua tinh dung duoc
+
+------------------------------------- Tong ket ---------------------------------------------
+Phan tich tinh dung duoc, tke giao dien, danh gia v..
+
+Cho 1 cai gdien, dau la cac kien thuc toi thieu ng dung can biet, lam sao cai tien duoc voi cac tuong tac moi.
+
+HTA: la phan cap nhiem vu the hien tren giao dien => cac chuc nang pmem cung cap cho ngdung
+1. Dinh nghia dua tren quan diem cua ngdung
+S = user
+V = ten cua task
+=> Co 1 cai HTA phan cap tu nhien, duoc nhom thanh cac chuc nang ng dung can sd
+Hoac phan cap theo trinh tu xuat hien man hinh
+2. Van phan cap, van nhom nhung phai dinh danh theo ten cua cac chuc nang ma dev can cai dat
+User must sign in. Nhung ma ko co system sign in. => system authentication
+=> Interactive task moi can phan cap HTA
+Non-interactive/external -> ko can
+** Loi: Lan lon, 2 chuc nang la 1 nhugn van tach lam 2.
+Neu phai lam nvu to -> co xu huong thuc hien chuc nang nho
+=> chuc nang nho ko trung chuc nang to
+
+Cung 1 kien thuc nhung van dung khac nhau
+VD: Client-server ko ap dung phan tich nay vi ko quan tam den user.
+
+
+Design principle
+Affordance: => Tinh gan ket
+- Lam the nao de khi nhin thay 1 cai doi tuong -> biet cach su dung no ntn?
+=> {tro giup ve mat suy luan + tinh truc quan}
++ physical affordance
+VD Cai cua: cac tp chinh bao gom tay nam, ban le va canh cua. Dat handle o ben trai => sdung tay trai de mo, an xuong
+VD: Ban ghe
+VD: Laptop
+=> Tu duy: su dung duoc phan lon thanh phan cua san pham
++ virtual affordance
+VD: Hien thi tren kenh io, khi an nut sang trai den sat man hinh se ko di duoc nua
+
+Usability: Tinh hieu qua, tinh de dung, tinh de hoc.
+
+Testing: 
+- Hanh dong nao duoc thuc hien la chinh, observing
+- Asking expert opinion
+- Mapping: voi hanh dong nao thi dung cai gi thi chon mo thuc nao
+- VD: chuc nang 
+- Phai chi ra 1 ky thuat cu the (danh gia mau thu, thiet ke, san pham)
+Tren sp => post summative
+- Task cho user, nhung ko biet la muon evaluate user's performance
+
+-
+-------------------- Lam de:
+- Multichoice: 1 or nhieu dap an
+- Fill in the blank
+- Summary
+- OX

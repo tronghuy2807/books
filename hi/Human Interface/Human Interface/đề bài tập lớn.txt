@@ -1,0 +1,9 @@
+﻿Xây dựng trò chơi hứng sao.
+Yêu cầu: tự thiết kế giao diện, tự bổ sung luật chơi.
+Các yêu cầu tối thiểu như sao:
+1.	Có tập gồm 3 đích ở bên phải màn hình
+2.	Có 1 vật hứng di dộng ở đáy màn hình
+3.	Có hệ thống vật phản xạ ở bên trái màn hình ( có di chuyển lên xuống), có thể bổ sung vật phản xạ ở góc trên màn hình nếu cần
+Người dùng cần phải dùng vật hứng để hứng sao và đưa về đích
+Luật di chuyển của sao tuân theo quy tắc phản xạ
+Bài tập tuần 3: xác định luật chơi cụ thể, kích bản chơi dựa trên các chỉ dẫn và thiết lập yêu cầu người dùng trong bài 2.
